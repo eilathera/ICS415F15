@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IC: W1C2</title>
+</head>
+<body>
+<!-- Main page table -->
+<table border="1" style="width:100%">
+  <!-- First row spans all columns; header text -->
+  <tr>
+    <th colspan="2">
+      <h1>Hello World!</h1>
+    </th>
+  </tr>
+  <!-- Navigation bar; row 2; spans all columns -->
+  <tr>
+    <td colspan="2">
+      <a href="tablesLists.html">Home</a>
+      <a href="formsGet.html">Forms</a>
+    </td>
+  </tr>
+  <!-- Forms summary window; row 3; column 1; left 25% -->
+  <td style="width:25%" valign="top" align="center">
+    <br>
+    <b>Forms Summary</b>
+
+    <p>
+      HTML supports several different types of input
+    </p>
+  </td>
+  <!-- Forms; row 3; column 2; right 75%-->
+  <td>
+    <h3>Forms Page</h3>
+    <p>The following is a text input:</p>
+
+    <form method="get">
+      <!-- username -->
+      Username:
+      <input type="text" name="username">
+      <br>
+      <!-- password -->
+      <p>Then a password input:</p>
+      Password:
+      <input type="text" name="password">
+      <br>
+      <br>
+      <!-- radio buttons -->
+      Radio Buttons:
+      <br>
+      <input type="radio" name="sex" value="male">Male
+      <br>
+      <input type="radio" name="sex" value="female">Female
+      <br>
+      <br>
+      <!-- checkboxes -->
+      Checkboxes:
+      <br>
+      <input type="checkbox" name="os" value="windows">Windows
+      <br>
+      <input type="checkbox" name="os" value="osx">OSX
+      <br>
+      <input type="checkbox" name="os" value="linux">Linux
+      <br>
+      <br>
+      <!-- submit -->
+      Submit button to send form data
+      <br>
+      <!-- uses GET. No real action -->
+      <input type="submit" value="Submit">
+    </form>
+   </td>
+
+</table>
+</body>
+</html>
