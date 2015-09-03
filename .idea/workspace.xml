@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c7a5ffb5-5c36-40c2-ad62-c7b10e1b306e" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/CSSH5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c1/formH5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/CSSHome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w2c2/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hello World.iws" />
@@ -27,11 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CSSH5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CSSH5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IC/w2c2/CSSH5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33284023">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tablesLists.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/A04/tablesLists.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="97" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IC/w2c2/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSSHome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IC/w2c2/CSSHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42307693">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -43,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,9 +95,11 @@
         <option value="$PROJECT_DIR$/Assignments/A04/formsGet.html" />
         <option value="$PROJECT_DIR$/IC/w2c1/tableCSS.html" />
         <option value="$PROJECT_DIR$/IC/w2c2/formH5.html" />
-        <option value="$PROJECT_DIR$/IC/w2c2/CSSH5.html" />
         <option value="$PROJECT_DIR$/IC/w2c1/tableH5.html" />
         <option value="$PROJECT_DIR$/IC/w2c1/formH5.html" />
+        <option value="$PROJECT_DIR$/IC/w2c2/layout.css" />
+        <option value="$PROJECT_DIR$/IC/w2c2/CSSH5.html" />
+        <option value="$PROJECT_DIR$/IC/w2c2/CSSHome.html" />
       </list>
     </option>
   </component>
@@ -208,6 +242,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -417,12 +452,12 @@
       <updated>1440709065193</updated>
       <workItem from="1440709066998" duration="6439000" />
       <workItem from="1440898125751" duration="215000" />
-      <workItem from="1441139995110" duration="1693000" />
+      <workItem from="1441139995110" duration="5457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8347000" />
+    <option name="totallyTimeSpent" value="12111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="23" width="720" height="797" extended-state="0" />
@@ -521,26 +556,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/A04/tablesLists.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.147929">
-          <caret line="71" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IC/w2c1/formH5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54083204">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        <state vertical-scroll-proportion="-10.041667">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w2c2/CSSH5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33284023">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w2c2/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/A04/tablesLists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="97" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IC/w2c2/CSSHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42307693">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
