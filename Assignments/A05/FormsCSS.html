@@ -1,0 +1,96 @@
+<!--
+A Header that goes across the entire page. The header should be 1/4 of the page height.
+
+A navbar with links to the three pages. The navbar should be 50 pixels high.
+
+A sidebar with summaries of the page contents. The sidebar should be 1/4 the page width.
+
+The main page with contents.
+
+A footer. The footer should be 50 pixels high.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="basicCSS.css">
+<head>
+  <meta charset="UTF-8">
+  <title>A05:Rachel Pang</title>
+</head>
+<body>
+
+<table id="test">
+  <tr id="header">
+    <header>
+      <td style="height: 25%" ; colspan="2">
+        <h1>A05</h1>
+      </td>
+    </header>
+  </tr>
+  <tr>
+    <nav>
+      <td id="headfooter" ; colspan="2">
+        <a href="HTMLCSS.html">Home</a> |
+        <a href="FormsCSS.html">Forms</a> |
+        <a href="Random.html">Random</a> |
+      </td>
+    </nav>
+  </tr>
+  <tr>
+    <aside>
+      <td id="sidebar" width="25%">
+        <h2>Sidebar</h2>
+      </td>
+    </aside>
+    <section>
+      <td id="main">
+        <h2>Main Page</h2>
+
+        <form method="get">
+          <!-- color -->
+          What's your favorite color?
+          <input type="color" name="favcolor" min="1">
+          <br>
+          When's your birthday?
+          <input type="date" name="birthday">
+          <br>
+          What time is it?
+          <input type="datetime" name="time">
+          <br>
+          Email
+          <input type="email" name="email">
+          <br>
+          Favorite month and year?
+          <input type="month" name="month">
+          <br>
+          Favorite number?
+          <input type="number" name="fav#">
+          <br>
+          How would you rate cake on a scale from 1-5?
+          <input type="range" min="1" max="5">
+          <br>
+          Search
+          <input type="search">
+          <br>
+          Favorite website?
+          <input type="url">
+          <br>
+          <br>
+          <!-- submit -->
+          Submit button to send form data
+          <br>
+          <!-- uses GET. No real action -->
+          <input type="submit" value="Submit">
+        </form>
+      </td>
+    </section>
+  </tr>
+  <tr>
+    <footer>
+      <td id="headfooter" ; colspan="2">
+        <h3>Footer</h3>
+      </td>
+    </footer>
+  </tr>
+</table>
+</body>
+</html>

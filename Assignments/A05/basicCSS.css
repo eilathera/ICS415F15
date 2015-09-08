@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  background-image: url("http://data.whicdn.com/images/16761647/original.jpg");
+  color: white;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+#header {
+  color: white;
+}
+
+#headfooter {
+  color: chartreuse;
+  height: 50px;
+}
+
+#sidebar {
+  color: aqua;
+}
+
+#main {
+  color: crimson;
+}
