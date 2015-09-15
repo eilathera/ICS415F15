@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  background-image: url("http://data.whicdn.com/images/16761647/original.jpg");
+  color: white;
+}
+
+.page-header {
+  height: 50%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.thisnav {
+  height: 50px;
+}
+
+li {
+  float: left;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.beef {
+  display: flex;
+}
+
+#summary {
+  text-align: left;
+  width: 25%;
+  border: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  margin: 2px;
+
+}
+
+#stuff {
+  align-content: center;
+  width: 75%;
+  border: 1px;
+  border-style: dotted;
+  border-color: blue;
+  margin: 2px;
+
+}
+
+.foot {
+  text-align: center;
+  height: 50px;
+}
