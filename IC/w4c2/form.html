@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="bootswatch.css">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <title>w4c2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <div class="jumbotron">
+    <h1>W4C2</h1>
+  </div>
+</header>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="form.html">Home</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid uk-flex" style="height: 100%">
+  <div class="row">
+    <div id="summary" class="col-sm-2" style="width: 25%" style="height: 100%">
+      <h3>Summary of Summary</h3>
+
+      <p>
+        This is a test
+      </p>
+    </div>
+
+    <div id="stuff" class="col-sm-2 uk-flex">
+      <h3>Summary Page</h3>
+
+      <form name="myForm" action="process.html" method="get">
+        <div class="form-group">
+          <label for="username">User name: </label>
+          <input type="text" name="name" id="username">
+        </div>
+        <div class="form-group">
+          <label for="address">Address: </label>
+          <input type="text" name="address" id="address">
+        </div>
+        <div class="form-group" id="phonegroup">
+          <label for="phone">Phone Number: </label>
+          <input type="text" name="phone" id="phone">
+        </div>
+        <input type="submit" value="Submit">
+      </form>
+
+    </div>
+  </div>
+  <div class="foot">
+    Copyright (C) Rachel Pang
+  </div>
+</div>
+</body>
+</html>
