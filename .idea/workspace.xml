@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a5ffb5-5c36-40c2-ad62-c7b10e1b306e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c1/DOMevents.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c1/bootswatch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IC/w5c1/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IC/w5c1/DOMevents.html" afterPath="$PROJECT_DIR$/IC/w5c1/DOMevents.html" />
     </list>
     <ignored path="Hello World.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +28,8 @@
       <file leaf-file-name="DOMevents.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IC/w5c1/DOMevents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.877193">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.59618443">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -442,12 +439,12 @@
       <workItem from="1441744858757" duration="3669000" />
       <workItem from="1441917430035" duration="2397000" />
       <workItem from="1442149792333" duration="8159000" />
-      <workItem from="1442901857083" duration="2811000" />
+      <workItem from="1442901857083" duration="2912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35506000" />
+    <option name="totallyTimeSpent" value="35607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="23" width="720" height="805" extended-state="0" />
@@ -866,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IC/w5c1/DOMevents.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.877193">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.59618443">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
