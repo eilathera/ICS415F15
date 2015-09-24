@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="bootswatch.css">
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <title>W3C1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <div class="jumbotron">
+    <h1>W3C1</h1>
+  </div>
+</header>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="CSSHome.html">Home</a></li>
+        <li><a href="CSSForm.html">Forms</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid uk-flex" style="height: 100%">
+  <div class="row">
+    <div id="summary" class="col-sm-2" style="width: 25%" style="height: 100%">
+      <!--color change example-->
+      <div>
+        <script>
+          $(document).ready(function(){
+            $("#hide").click(function(){
+              $("p").hide();
+            });
+            $("#show").click(function(){
+              $("p").show();
+            });
+          });
+        </script>
+        </head>
+        <body>
+
+        <p>This div will disappear if you click "Hide" and reappear when you click "Show"!</p>
+
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+
+        <br>
+      </div>
+
+      <!--mouse over example-->
+      <div>
+        <li>
+          Hover your mouse over the corgi!
+        </li>
+        <div>
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"
+               src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pembroke_Corgi_Image_001.jpg" alt="Corgi"
+               width="45" height="32">
+        </div>
+        <script>
+          function bigImg(x) {
+            x.style.height = "100px";
+            x.style.width = "150px";
+          }
+
+          function normalImg(x) {
+            x.style.height = "32px";
+            x.style.width = "45px";
+          }
+        </script>
+      </div>
+      <br>
+
+      <!--copy fields example-->
+      <div>
+
+        <script>
+          $(document).ready(function(){
+            $("button").click(function(){
+              $("#div1").load("demo_test.txt");
+            });
+          });
+        </script>
+        </head>
+        <body>
+
+        <div id="div1"><h2>This is some test text!</h2></div>
+
+        <button>Click to change text</button>
+
+      </div>
+    </div>
+
+    <div id="stuff" class="col-sm-2 uk-flex">
+      <h3>Summary Page</h3>
+
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Buttons</a></li>
+        <li><a data-toggle="tab" href="#menu1">Forms</a></li>
+        <li><a data-toggle="tab" href="#menu2">Thumbnail</a></li>
+      </ul>
+
+      <!-- tab 1 -->
+      <div class="tab-content">
+
+        <!-- button group example-->
+        <div id="home" class="tab-pane fade in active">
+
+          <p>Here are some button examples</p>
+          <!-- reload button example -->
+          <a class="btn btn-danger" href="#">
+            <i class="fa fa-trash-o fa-lg"></i> Delete</a>
+          <a class="btn btn-default btn-sm" href="#">
+            <i class="fa fa-cog"></i> Settings</a>
+
+          <br>
+          <br>
+
+          <p>Here's an example of a button group</p>
+          <!-- button group example -->
+          <div class="btn-group">
+            <a class="btn btn-default" href="#"><i class="fa fa-align-left"></i></a>
+            <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
+            <a class="btn btn-default" href="#"><i class="fa fa-align-right"></i></a>
+            <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
+          </div>
+        </div>
+
+        <!-- tab 2 -->
+        <div id="menu1" class="tab-pane fade">
+          <br>
+
+          <!-- here's a vertical form input-group -->
+          <div>
+            <form role="form">
+              <div class="input-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="input-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+
+          <br>
+          <br>
+
+          <!-- here's a horizontal form eample -->
+          <div>
+            <form class="form-horizontal">
+              <div class="input-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="input-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- tab 3 -->
+        <div id="menu2" class="tab-pane fade">
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pembroke_Corgi_Image_001.jpg"
+                     alt="Generic placeholder thumbnail">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pembroke_Corgi_Image_001.jpg"
+                     alt="Generic placeholder thumbnail">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pembroke_Corgi_Image_001.jpg"
+                     alt="Generic placeholder thumbnail">
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <a href="#" class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Pembroke_Corgi_Image_001.jpg"
+                     alt="Generic placeholder thumbnail">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="foot">
+    Copyright (C) Rachel Pang
+  </div>
+</div>
+</body>
+</html>
